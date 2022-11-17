@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda Online</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+          <div class="main-header__container">
+            <h1 class="main-header__title">(Nombre)</h1>
+            <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+            <nav class="main-nav" id="main-nav">
+              <ul class="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link">Casa</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="caracteristicas.html" class="menu__link">Productos</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Contactenos</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main-header__container">
+            <span class="main-header__txt">Ayuda</span>
+            <p class="main-header__txt"><i class="fas fa-phone"></i> Num 123456799</p>
+          </div>
+          <div class="main-header__container">
+            <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+            <a href="" class="main-header__btn">My cart <i class="fas fa-shopping-cart"></i></a>
+            <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <!--
+        <div class="container container--flex">
+            <h1 class="display-4 mt-4">Lista de Productos</h1>
+            <p class="lead">Selecciona uno de nuestros productos y accede a un descuento</p>
+        </div>
+
+        <div class="container">
+            
+            <div class="container">
+                
+                <div class="container-products">
+                    <div class="card-header">
+                        <h4 class="product__title">HP PAVILION</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://falabella.scene7.com/is/image/FalabellaPE/18039609_1?wid=800&hei=800&qlt=70" class="product__img">
+                        <h1 class="btn-shop">S/. <span class="">5000</span></h1>
+
+                        <ul class="product__description">
+                            <li></li>
+                            <li>8 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>256 GB DISCO SSD</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div> -->
+
+        <section class="container-products">
+            <div class="product">
+              <img src="https://falabella.scene7.com/is/image/FalabellaPE/18039609_1?wid=800&hei=800&qlt=70" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Laptop(marca) color(Grey)</h3>
+                <span class="product__price">$575.00</span><br>
+                <span class="product__price">8 GB RAM</span><br>
+                <span class="product__price">COLOR PLATEADO</span><br>
+                <span class="product__price">256 GB DISCO SSD</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/18039609_1?wid=800&hei=800&qlt=70" alt="" class="product__img">
+                <div class="product__description">
+                  <h3 class="product__title">Laptop(marca) color(Grey)</h3>
+                  <span class="product__price">$575.00</span><br>
+                  <span class="product__price">8 GB RAM</span><br>
+                  <span class="product__price">COLOR PLATEADO</span><br>
+                  <span class="product__price">256 GB DISCO SSD</span>
+                </div>
+                <i class="product__icon fas fa-cart-plus"></i>
+              </div>
+              <div class="product">
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/18039609_1?wid=800&hei=800&qlt=70" alt="" class="product__img">
+                <div class="product__description">
+                  <h3 class="product__title">Laptop(marca) color(Grey)</h3>
+                  <span class="product__price">$575.00</span><br>
+                  <span class="product__price">8 GB RAM</span><br>
+                  <span class="product__price">COLOR PLATEADO</span><br>
+                  <span class="product__price">256 GB DISCO SSD</span>
+                </div>
+                <i class="product__icon fas fa-cart-plus"></i>
+              </div>
+              <div class="product">
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/18039609_1?wid=800&hei=800&qlt=70" alt="" class="product__img">
+                <div class="product__description">
+                  <h3 class="product__title">Laptop(marca) color(Grey)</h3>
+                  <span class="product__price">$575.00</span><br><br>
+                  <span class="product__price">8 GB RAM</span><br><br>
+                  <span class="product__price">COLOR PLATEADO</span><br>
+                  <span class="product__price">256 GB DISCO SSD</span>
+                </div>
+                <i class="product__icon fas fa-cart-plus"></i>
+              </div>
+          </section>
+
+          <section class="container-products">
+            <div class="product">
+              <img src="https://falabella.scene7.com/is/image/FalabellaPE/18039609_1?wid=800&hei=800&qlt=70" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Laptop(marca) color(Grey)</h3>
+                <span class="product__price">$575.00</span><br>
+                <span class="product__price">8 GB RAM</span><br>
+                <span class="product__price">COLOR PLATEADO</span><br>
+                <span class="product__price">256 GB DISCO SSD</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/18039609_1?wid=800&hei=800&qlt=70" alt="" class="product__img">
+                <div class="product__description">
+                  <h3 class="product__title">Laptop(marca) color(Grey)</h3>
+                  <span class="product__price">$575.00</span><br>
+                  <span class="product__price">8 GB RAM</span><br>
+                  <span class="product__price">COLOR PLATEADO</span><br>
+                  <span class="product__price">256 GB DISCO SSD</span>
+                </div>
+                <i class="product__icon fas fa-cart-plus"></i>
+              </div>
+              <div class="product">
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/18039609_1?wid=800&hei=800&qlt=70" alt="" class="product__img">
+                <div class="product__description">
+                  <h3 class="product__title">Laptop(marca) color(Grey)</h3>
+                  <span class="product__price">$575.00</span><br>
+                  <span class="product__price">8 GB RAM</span><br>
+                  <span class="product__price">COLOR PLATEADO</span><br>
+                  <span class="product__price">256 GB DISCO SSD</span>
+                </div>
+                <i class="product__icon fas fa-cart-plus"></i>
+              </div>
+              <div class="product">
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/18039609_1?wid=800&hei=800&qlt=70" alt="" class="product__img">
+                <div class="product__description">
+                  <h3 class="product__title">Laptop(marca) color(Grey)</h3>
+                  <span class="product__price">$575.00</span><br>
+                  <span class="product__price">8 GB RAM</span><br>
+                  <span class="product__price">COLOR PLATEADO</span><br>
+                  <span class="product__price">256 GB DISCO SSD</span>
+                </div>
+                <i class="product__icon fas fa-cart-plus"></i>
+              </div>
+          </section>
+    </main>
+      
+      
+      <footer class="main-footer">
+        <div class="footer__section">
+          <h2 class="footer__title">About Us</h2>
+          <p class="footer__txt">Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus. Nulla porttitor accumsana tincidunt.</p>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Location :</h2>
+          <p class="footer__txt">0926k 4th block building, king Avenue, New York City</p>
+          <h2 class="footer__title">Contact</h2>
+          <p class="footer__txt">Phone : +121 098 8907 9987</p>
+          <p class="footer__txt">Email : info@example.com</p>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Quick Links</h2>
+          <a href="" class="footer__link">Home</a>
+          <a href="" class="footer__link">About</a>
+          <a href="" class="footer__link">Error</a>
+          <a href="" class="footer__link">Shop</a>
+          <a href="" class="footer__link">Contact Us</a>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Sign up for your offers</h2>
+          <p class="footer__txt">By subscribing to our mailing list you will always get latest news and updates from us.</p>
+          <input type="email" class="footer__input" placeholder="Enter your email">
+        </div>
+        <p class="copy">© 2021 Goggles. All Rights Reserved | Design by W3Layouts</p>
+      </footer>
+</body>
+</html>
